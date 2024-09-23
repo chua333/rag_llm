@@ -7,7 +7,7 @@ from llama_index.core.postprocessor import SimilarityPostprocessor
 from transformers import pipeline
 
 # Set Hugging Face token
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "API_TOKEN_HERE"
 
 # Define settings
 Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
